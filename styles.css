@@ -106,3 +106,27 @@ ul {
     justify-content: center;
     align-items: stretch;
 }
+#primary_div{
+    padding: 100px;
+}
+h3{
+    padding: 0;
+    font-size: 50px;
+    text-align: left;
+    font-weight: lighter;
+}
+#sim_body{
+    display: flex;
+}
+#sim_body  p{
+    font-size: 40px;
+    padding-left: 100px;
+
+}
+#os h3{
+    color: #7F4EBD;
+    font-weight: bold;
+    font-size: 350%;
+    
+   
+}
