@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Lab</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4; /* Light gray background color */
+            color: #333; /* Dark text color */
+        }
+
+        header {
+            background: linear-gradient(to right, #8B7C9E, #F7F4FA); /* Linear gradient background */
+            padding: 40px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            color: #000; /* White text color for navigation links */
+            text-decoration: none;
+            margin: 0 50px;
+            font-size: 36px;
+            padding-right: 100px;
+        }
+
+        .logo img {
+            max-width: 200px; /* Set the maximum width of your logo */
+            height: auto;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 50px 40px;
+        }
+
+        .hero-section img {
+            width: 100%;
+            max-width: 3000px;
+            height: 600px;
+            display: block;
+            margin: 0 auto;
+            border: 2px solid #333; /* Dark border around the hero image */
+            border-radius: 8px; /* Rounded corners for the hero image */
+            object-fit:contain;
+        }
+
+        .lab-description {
+            text-align: justify;
+            padding: 10px 5%;
+        }
+
+        h2 {
+            padding: 0;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        p {
+            line-height: 50px;
+            font-size: 30px;
+        }
+        li {
+            line-height: 50px;
+            font-size: 30px;
+            padding: 10px;
+        }
+        ul {
+            padding-left: 100px;
+        }
+        #home{
+            color: #514f5365;
+        }
+
+        .my_button{
+            
+            background-color: #C7BFD1; /* Green */
+            
+            color: black;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 20px 20px 0px 0px;
+            width: 100%;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            background-color: #f9f9f9;
+            border-radius: 0px 0px 10px 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .cards{
+            display: flex;
+            padding: 0;
+            gap: 25px;
+            justify-content: center;
+            align-items: stretch;
+        }
+        .buttons {
+            display: flex;
+            padding: 0;
+            gap: 25px;
+            justify-content: center;
+            align-items: stretch;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <!-- Replace 'your-college-logo.png' with the path to your college logo -->
+            <img src="SRM logo.webp" alt="College Logo">
+        </div>
+        <nav>
+            <a id="home" href="#">Home</a>
+            <a href="#">Simulation</a>
+            <a href="#">Contact</a>
+            <a href="#">About Us</a>
+        </nav>
+    </header>
+
+    <div class="hero-section">
+        <!-- Replace 'lab-picture.jpg' with the path to your lab picture -->
+        <img src="" alt="Lab Picture">
+    </div>
+
+    <div class="lab-description">
+        <h2>About Our Virtual Lab</h2>
+        <p>Good lab facilities and updated lab experiments are critical for any engineering college. Paucity of lab facilities often make it difficult to conduct experiments. Also, good teachers are always a scarce resource. The Virtual Labs project addresses this issue of lack of good lab facilities, as well as trained teachers, by providing remote-access to simulation-based Labs in various disciplines of science and engineering. Yet another objective is to arouse the curiosity of the students and permit them to learn at their own pace. This student-centric approach facilitates the absorption of basic and advanced concepts through simulation-based experimentation. Internet-based experimentation further permits use of additional web-resources, video-lectures, animated demonstrations and self-evaluation. Specifically, the Virtual Labs project addresses the following:
+        <div class="bullet">
+            <ul>
+                <li>Access to online labs to those engineering colleges that lack these lab facilities</li>
+                <li>Access to online labs as a complementary facility to those colleges that already have labs</li>
+                <li>Training and skill-set augmentation through workshops and on-site/ online training</li>
+            </ul>
+        </div>
+        <p>Virtual labs are any place, any pace, any-time, any-type labs. It is a paradigm shift in student-centric, online education.</p>
+    </div>
+
+    <div class="lab-description">
+        <h2>Labs</h2>
+        <div class="buttons">
+            <div class="my_button">
+                <p>Operating System</p>
+            </div>
+            <div class="my_button">
+                <p>AR/VR</p>
+            </div>
+        </div>
+        <div class="cards">
+            <img class="card" src="https://placehold.co/600x200" alt="">
+            <img class="card" src="https://placehold.co/600x200" alt="">
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
