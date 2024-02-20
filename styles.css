@@ -99,6 +99,13 @@ ul {
     justify-content: center;
     align-items: stretch;
 }
+
+.footer {
+    background-color: #6e606d;
+    color: #fff;
+    text-align: center;
+    padding: 10%;
+}
 .buttons {
     display: flex;
     padding: 0;
