@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4; /* Light gray background color */
     color: #333; /* Dark text color */
+    overflow:visible;
 }
 
 header {
